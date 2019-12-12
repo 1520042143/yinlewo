@@ -1,0 +1,6 @@
+[DEBUG] 2019-12-11 17:55:05,271 method:org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135)Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG] 2019-12-11 17:55:05,444 method:org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:137)Opening JDBC Connection
+[DEBUG] 2019-12-11 17:55:05,645 method:org.apache.ibatis.transaction.jdbc.JdbcTransaction.setDesiredAutoCommit(JdbcTransaction.java:101)Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@47ef968d]
+[DEBUG] 2019-12-11 17:55:05,652 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)==>  Preparing: select * from student where id=? and name=? and 3=3 
+[DEBUG] 2019-12-11 17:55:05,677 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)==> Parameters: 3(Integer), ÁúÍõ(String)
+[DEBUG] 2019-12-11 17:55:05,696 method:org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:159)<==      Total: 1
